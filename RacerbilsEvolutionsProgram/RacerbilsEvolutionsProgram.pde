@@ -1,5 +1,5 @@
 //populationSize: Hvor mange "controllere" der genereres, controller = bil & hjerne & sensorer
-int       populationSize  = 500;     
+int       populationSize  = 200;     
 float varians             = 2; //hvor stor er variansen på de tilfældige vægte og bias
 //CarSystem: Indholder en population af "controllere" 
 CarSystem carSystem       = new CarSystem(populationSize, 0.1);
